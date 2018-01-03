@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+body {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 10%;
+  text-align: center;
+}
+#foreground {
+  background-color: rgba(31, 89, 25, 0.75);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(44, 153, 33, 0.75);
+  border-radius: 1%;
+  padding: 2% 5%;
+}
+#title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  padding-bottom: 2%;
+}
+#description h2{
+  font-size: 26px;
+}
+#profile img {
+  max-width: 100%;
+  height: auto;
+  margin: 1% 0%;
+  border-radius: 1%;
+}
+#footer {
+  font-size: 22px;
+  padding-top: 50px;
+}
+#footer a:link, a:visited {
+  color: #bbf4b2;
+}
+#footer a:hover, a:active {
+  color: #d6afff;
+  text-decoration: none;
+}
